@@ -61,6 +61,12 @@ inputs:
       value_options:
         - udp
         - tcp
+  - cipher: AES-256-CBC
+    opts:
+      title: "Cipher"
+      summary: "Open VPN Server Cipher"
+      is_expand: true
+      is_required: false
   - ca_crt: "$VPN_CA_CRT_BASE64"
     opts:
       title: "Base64 encoded CA Certificate"
