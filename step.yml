@@ -66,7 +66,7 @@ inputs:
       title: "Cipher"
       summary: "Open VPN Server Cipher"
       is_expand: true
-      is_required: false
+      is_required: true
   - ca_crt: "$VPN_CA_CRT_BASE64"
     opts:
       title: "Base64 encoded CA Certificate"
