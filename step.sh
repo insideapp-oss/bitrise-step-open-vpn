@@ -38,6 +38,7 @@ verb 3
 ca ca.crt
 cert client.crt
 key client.key
+cipher AES-256-CBC
 EOF
 
     echo ""
